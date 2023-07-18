@@ -26,4 +26,5 @@ fun main(){
     println("collage:$clg")
     println("University:$univ ")
     println("Age:$age")
+
 }

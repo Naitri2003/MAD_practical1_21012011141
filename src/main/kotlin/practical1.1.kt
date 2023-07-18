@@ -9,6 +9,7 @@ var g:Long=32245435
 var h:Short=-3
 var i:Byte=123
 
+
     println("Int value : $a")
     println("Float value :$b")
     println("Char value:$c")
