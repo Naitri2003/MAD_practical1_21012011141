@@ -5,7 +5,6 @@ fun main(){
     val number1 = readLine()!!
     println("Factorial of $number is: $result")
     println(" By TailRec Keyword ,Factorial of $number is:$result")
-
 }
 
 fun factorial(n: Int): Long {
