@@ -32,16 +32,16 @@ class Car(info:String,Owner:String,miles:Int,OGPrice:Double,currentPrice:Double)
         println("----------\n")}}
 fun main() {
     println("Creating Car Class Object car1 in next line")
-    val car1 = Car("BMW, 2018","nishant",105,
+    val car1 = Car("BMW, 2018","naitri",105,
         10000.0,98950.0)
     car1.displayCarInfo()
     println("Creating Car Class Object car2 in next line")
-    val car2 = Car("BMW, 2019","krish",20,
+    val car2 = Car("BMW, 2019","krina",20,
         400000.0,399800.0)
     car2.displayCarInfo()
     println("\n********** ArrayList of Car **********")
     val carlist = ArrayList<Car>()
-    carlist.add(Car("Toyota,2017","bhoomi",100,1080000.0,1079000.0))
+    carlist.add(Car("Toyota,2017","khushi",100,1080000.0,1079000.0))
                 carlist.add(Car("Maruti,2020","ami",200,4000000.0,3998000.0))
                     carlist[0].displayCarInfo()
                     carlist[1].displayCarInfo()

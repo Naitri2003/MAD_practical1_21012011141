@@ -1,5 +1,4 @@
 fun main() {
-    println("Bhoomi_21012011069")
     val firstMatrix = Matrix(arrayOf(intArrayOf(3,-2,5),
         intArrayOf(3,0,4)),2,3)
     val secondMatrix =
